@@ -73,13 +73,13 @@ A statistical study that would be interesting to quantify to see how the MechaCa
 
 - What is the null hypothesis or alternative hypothesis?
 
-Null Hypothesis (Ho): Mecharcar's horsepower is not different from its competitors
-Alternative Hypothesis (Ha): Mecharcar's horsepower is different from its competitors
+Null Hypothesis (Ho): There is no statistical difference between the competition's horse power dataset and MechaCar's dataset.
+Alternative Hypothesis (Ha): There is statistical difference between the competition's horse power dataset and MechaCar's dataset.
 
 - What statistical test would you use to test the hypothesis? And why?
 
-I would use t-tests to compare the population of all horsepower types from the competitor's vehicles. I would also use a multiple linear regression to determine the factors that have the highest correlation/predictability. 
+I would use t-tests to compare the population of our data with the competitors. 
 
 - What data is needed to run the statistical test?
 
-We would need the car's horsepower from our competitors and also from MechaCar.
+At a significance level of 0.05, the data that results of a p-value smaller than 0.05 would prove that the null hypothesis could be rejected. If the Ha is true, we can predict that MechaCar has better horse power compared to their competitors. 
